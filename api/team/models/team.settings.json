@@ -11,7 +11,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "member": {
+    "members": {
       "type": "component",
       "repeatable": true,
       "component": "components.team-member"
