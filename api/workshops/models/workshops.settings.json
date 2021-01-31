@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "workshops",
+  "info": {
+    "name": "Workshops",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text_before": {
+      "type": "richtext"
+    },
+    "video": {
+      "type": "string"
+    },
+    "workshops": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.workshop"
+    },
+    "text_after": {
+      "type": "richtext"
+    }
+  }
+}
